@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 23px;
+}
+
+img{
+    scale: 2;
+    margin: 2rem;
+}
+
+section{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+p{
+    line-height: 200%;
+    font-family: 'Turret Road', cursive;
+}
+
+.on{
+    color: black;
+}
+
+.off{
+    color: rgba(255, 255, 255, 0);
+}
